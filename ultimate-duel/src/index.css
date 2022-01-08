@@ -1,0 +1,296 @@
+body {
+  margin: 0;
+  font-family: 'Press Start 2P';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image:url(./assets/background2.jpg);
+  background-size: 70%;
+  z-index: 2;
+  background-color: #05141b;
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  color: #CECBBC;
+  font-size: 2.2vh;
+  text-shadow: -0.23vh 0 black, 0 0.23vh black, 0.23vh 0 black, 0 -0.23vh black;
+}
+
+
+.main {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 1em;
+  color: #533e5d;
+  font-size: 4vh;
+  line-height: 3vh;
+  text-shadow: -4px 0 #ffff, 0 6px #ffff, 4px 0 #ffff, 0 -1px #ffff;
+  padding: 20px;
+  position: fixed;
+  text-align: center;
+  top: 18%;
+  left:50%;
+  -webkit-transfrom: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.selectionsMenu{
+  text-align: center;
+  background-color: #3C2E43;
+  position:fixed;
+  top: 50%;
+  left:50%;
+  -webkit-transfrom: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin-top: 3em;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  min-height: 20%;
+  min-width: 22%;
+  border: 0.8vh solid #A05077  ;
+  overflow: hidden;
+}
+
+.rules{
+  height: 70vh;
+  overflow: auto;
+  /* margin-bottom: 30%; */
+  line-height: 3vh;
+  padding-left: 3vh;
+  padding-right: 3vh;
+  padding-top: 5vh;
+}
+
+.game{
+  /* background-color: orange;
+  background-image:url(./assets/background3.jpg);
+  background-size: auto 100vh;
+  background-repeat: no-repeat; */
+  background: rgb(194,188,164);
+  background: linear-gradient(90deg, rgba(194,188,164,1) 0%, rgba(160,80,119,1) 45%, rgba(67,51,74,1) 100%);
+  z-index: 1;
+  height: 100vh;
+  width: 100vw;
+}
+
+.console{
+  background-color: #3C2E43;
+  position:fixed;
+  top: 85%;
+  left:50%;
+  width: 90%;
+  height: 22%;
+  -webkit-transfrom: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  padding-top: 1vh;
+  padding-bottom: 3vh;
+  padding-left: 4vh;
+  padding-right: 4vh;
+  border: 0.8vh solid #A05077  ;
+  overflow: hidden;
+}
+
+.playerHUD{
+  background-color: #3C2E43;
+  position:fixed;
+  top: 62.5%;
+  left:82.5%;
+  min-width: 8em;
+  width: 25%;
+  height: 12%;
+  -webkit-transfrom: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  padding-bottom: 2vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  border: 0.8vh solid #A05077;
+}
+
+.opponentHUD{
+  background-color: #3C2E43;
+  position:fixed;
+  top: 10%;
+  left:17%;
+  min-width: 8em;
+  width: 25%;
+  height: 12%;
+  -webkit-transfrom: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  padding-bottom: 2vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  border: 0.8vh solid #A05077  ;
+}
+
+.waiting{
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  left:50%;
+  -webkit-transfrom: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  background-color: #3C2E43;
+  padding: 2em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  padding-bottom: 40px;
+  border: 0.8vh solid #A05077  ;
+}
+.goButton{
+  background-color: #CECBBC;
+  color: black;
+  font-size: 1.8vh;
+  font-family: 'Press Start 2P';
+  padding: 1vh;
+  text-align: center;
+}
+input[type=text]{
+  font-family: 'Press Start 2P';
+  font-size: 2vh;
+  background-color: #cc6b8e;
+  color: black;
+  text-align: center;
+  height: 2.5vh;
+}
+.selection{
+  color: #CECBBC;
+}
+.selection:hover{
+  color:#F2EEDE;
+  font-size: 2.3vh;
+}
+
+.unavailable{
+  opacity: 0.5;
+}
+
+a{
+  text-decoration:none;
+  color: #CECBBC;
+}
+a:hover{
+  color:#F2EEDE;
+  font-size: 2.3vh;
+}
+
+
+
+.slider{
+  -webkit-appearance: none;
+  width: 50%;
+  height: 0.5em;
+  border-radius: 0.3em;
+  background: #A05077
+}
+
+.slider::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  appearance: none;
+  width:1.2em;
+  height:1.2em;
+  border-radius: 50%;
+  background: #533e5d;
+}
+
+.exp{
+  color: yellow; 
+  font-size: 30px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+ /* added animation property to show the character one at a time*/
+  animation: type 8s steps(10, end)
+}
+
+.opponentSprite{
+  position:fixed;
+  top: 30%;
+  right:10%;
+  -webkit-transfrom: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  height: 40%;
+  width: auto;
+}
+
+.playerSprite{
+  position:fixed;
+  top: 55%;
+  left: 22%;
+  -webkit-transfrom: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  height: 40%;
+  width: auto;
+}
+
+@media (max-width: 600px){
+  body{
+    font-size: 1.8vh;
+    background-size: 200%;
+  }
+
+  .title{
+    font-size: 2.2vh;
+  }
+  .selectionsMenu{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .rules{
+    font-size: 1vh;
+    overflow: auto;
+    width: 100%;
+    margin-bottom: 50%;
+    padding: 0;
+  }
+
+  input[type=text]{
+    font-family: 'Press Start 2P';
+    font-size: 1.5vh;
+    background-color: #cc6b8e;
+    color: black;
+    text-align: center;
+    height: 2vh;
+    width: 80%;
+  }
+
+  .console{
+    width:75%;
+  }
+
+  .playerHUD{
+    width: 40%;
+    left: 72%;
+    top: 55%;
+  }
+
+  .opponentHUD{
+    left: 28%;
+    width: 40%;
+  }
+
+  a:hover{
+    color:#F2EEDE;
+    font-size: 1.75vh;
+  }
+
+  .opponentSprite{
+    top: 20%;
+    right:-15%;
+    height: 30%;
+  }
+
+  .playerSprite{
+    top: 58%;
+    left: 22%;
+    -webkit-transfrom: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    height: 30%;
+    width: auto;
+  }
+}

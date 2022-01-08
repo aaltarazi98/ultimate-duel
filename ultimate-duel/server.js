@@ -4,12 +4,7 @@ const http = require('http');
 const server = http.createServer(app);
 const path = require('path')
 const { Server } = require("socket.io");
-// const socket = require('./src/socketConfig');
-const io = new Server(server, {
-  cors:{
-      origin:"*"
-  }
-});
+const io = new Server(server);
 
 
 app.use(express.static(path.join(__dirname, 'build')));

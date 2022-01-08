@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.df12d501.chunk.css",
+    "main.js": "/static/js/main.c7b6089c.chunk.js",
+    "main.js.map": "/static/js/main.c7b6089c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.40f025cd.js",
+    "runtime-main.js.map": "/static/js/runtime-main.40f025cd.js.map",
+    "static/js/2.214730cc.chunk.js": "/static/js/2.214730cc.chunk.js",
+    "static/js/2.214730cc.chunk.js.map": "/static/js/2.214730cc.chunk.js.map",
+    "static/js/3.f64560e1.chunk.js": "/static/js/3.f64560e1.chunk.js",
+    "static/js/3.f64560e1.chunk.js.map": "/static/js/3.f64560e1.chunk.js.map",
+    "static/js/4.51fe7ef4.chunk.js": "/static/js/4.51fe7ef4.chunk.js",
+    "static/js/4.51fe7ef4.chunk.js.map": "/static/js/4.51fe7ef4.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.df12d501.chunk.css.map": "/static/css/main.df12d501.chunk.css.map",
+    "static/js/2.214730cc.chunk.js.LICENSE.txt": "/static/js/2.214730cc.chunk.js.LICENSE.txt",
+    "static/js/3.f64560e1.chunk.js.LICENSE.txt": "/static/js/3.f64560e1.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/background2.c925ac96.jpg",
+    "static/media/battletheme2.81e6fa70.mp3": "/static/media/battletheme2.81e6fa70.mp3",
+    "static/media/blast.41190af8.mp3": "/static/media/blast.41190af8.mp3",
+    "static/media/charge.5d12d4df.mp3": "/static/media/charge.5d12d4df.mp3",
+    "static/media/damage.2fec2361.mp3": "/static/media/damage.2fec2361.mp3",
+    "static/media/death.bdd0ae13.mp3": "/static/media/death.bdd0ae13.mp3",
+    "static/media/emptyHeart.51ae7f36.png": "/static/media/emptyHeart.51ae7f36.png",
+    "static/media/laser.6d3480f7.mp3": "/static/media/laser.6d3480f7.mp3",
+    "static/media/losstheme.f760a221.mp3": "/static/media/losstheme.f760a221.mp3",
+    "static/media/opponentBlast.7d88ebe9.png": "/static/media/opponentBlast.7d88ebe9.png",
+    "static/media/opponentCharge.11d2d058.png": "/static/media/opponentCharge.11d2d058.png",
+    "static/media/opponentFire.c50b9566.png": "/static/media/opponentFire.c50b9566.png",
+    "static/media/opponentShield.358e44d6.png": "/static/media/opponentShield.358e44d6.png",
+    "static/media/playerShield.b030be90.png": "/static/media/playerShield.b030be90.png",
+    "static/media/shield.9af026ce.mp3": "/static/media/shield.9af026ce.mp3",
+    "static/media/wintheme.73cd6512.mp3": "/static/media/wintheme.73cd6512.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.40f025cd.js",
+    "static/js/2.214730cc.chunk.js",
+    "static/css/main.df12d501.chunk.css",
+    "static/js/main.c7b6089c.chunk.js"
+  ]
+}

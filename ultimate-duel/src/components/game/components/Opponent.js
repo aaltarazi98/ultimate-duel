@@ -31,7 +31,7 @@ export default function Opponent(props) {
     function showHeart(num){
         if (num === 3){
             return(
-                <div style={{textAlign: 'right', margin: '0', padding: '0'}}>
+                <div style={{textAlign: 'right', margin: '0', padding: '0', marginTop: '0.5em'}}>
                     <img style={{height: '2em', margin: '0'}} src={heart}></img>
                     <img style={{height: '2em', margin: '0'}}src={heart}></img>
                     <img style={{height: '2em', margin: '0'}}src={heart}></img>
@@ -39,7 +39,7 @@ export default function Opponent(props) {
             )
         }else if (num === 2){
             return(
-                <div style={{textAlign: 'right', margin: '0', padding: '0'}}>
+                <div style={{textAlign: 'right', margin: '0', padding: '0', marginTop: '0.5em'}}>
                     <img style={{height: '2em', margin: '0'}}src={heart}></img>
                     <img style={{height: '2em', margin: '0'}}src={heart}></img>
                     <img style={{height: '2em', margin: '0'}}src={emptyHeart}></img>
@@ -47,7 +47,7 @@ export default function Opponent(props) {
             )
         }else if (num === 1){
             return(
-                <div style={{textAlign: 'right', margin: '0', padding: '0'}}>
+                <div style={{textAlign: 'right', margin: '0', padding: '0', marginTop: '0.5em'}}>
                     <img style={{height: '2em', margin: '0'}}src={heart}></img>
                     <img style={{height: '2em', margin: '0'}}src={emptyHeart}></img>
                     <img style={{height: '2em', margin: '0'}}src={emptyHeart}></img>
@@ -55,7 +55,7 @@ export default function Opponent(props) {
             )
         }else{
             return(
-                <div style={{textAlign: 'right', margin: '0', padding: '0'}}>
+                <div style={{textAlign: 'right', margin: '0', padding: '0', marginTop: '0.5em'}}>
                     <img style={{height: '2em', margin: '0'}}src={emptyHeart}></img>
                     <img style={{height: '2em', margin: '0'}}src={emptyHeart}></img>
                     <img style={{height: '2em', margin: '0'}}src={emptyHeart}></img>
@@ -128,7 +128,7 @@ export default function Opponent(props) {
             <div className="opponentHUD">
                 <p style={{ marginBottom: '0'}}>{props.opponent.name}</p>
                 {showHeart(hp)}
-                <p className ="static" style={{textAlign: 'right', color: chargeColor}}>Charge: {props.opponent.charge}</p>
+                <p className ="static" style={{textAlign: 'right', color: chargeColor, marginTop: '0.5em'}}>Charge: {props.opponent.charge}</p>
             </div>
             <div>
                 <img src={sprite}  className="opponentSprite"></img>

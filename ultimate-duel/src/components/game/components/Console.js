@@ -64,17 +64,17 @@ export default function Console(props) {
         <div className="console">
             {consoleMsg?
 
-            <h4 className="static">{consoleMsg}</h4>
+            <p className="static">{consoleMsg}</p>
             
             :
             <>
 
-                <div style={{float: 'right', fontSize:'22px'}}>
+                <div style={{float: 'right', fontSize:'1em'}}>
                     <br/>
                     { isClicked ? <></> : <Countdown date={Date.now() + 6000} renderer= {renderer} precision={1} intervalDelay={100} zeroPadTime={1} onComplete={()=>{if(!isClicked)socket.emit('action', props.player, 2)}}/>}
                 </div>
                 <div>
-                    <h4 className="static">What is your next move?</h4>
+                    <p className="static">What is your next move?</p>
                     <ul>
                         {props.player.charge > 0 && !isClicked ?<li value='0' className = 'selection' onClick={handleClick}>Fire</li>:<li className = 'unavailable'>Fire</li>}<br/>
                         {props.player.charge < blastCharge && !isClicked ?<li value ='1' className= 'selection' onClick={handleClick}>Charge</li>:<li className = 'unavailable'>Charge</li>}<br/>

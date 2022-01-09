@@ -56,7 +56,6 @@ body {
 .rules{
   height: 70vh;
   overflow: auto;
-  /* margin-bottom: 30%; */
   line-height: 3vh;
   padding-left: 3vh;
   padding-right: 3vh;
@@ -64,12 +63,9 @@ body {
 }
 
 .game{
-  /* background-color: orange;
-  background-image:url(./assets/background3.jpg);
-  background-size: auto 100vh;
-  background-repeat: no-repeat; */
   background: rgb(194,188,164);
   background: linear-gradient(90deg, rgba(194,188,164,1) 0%, rgba(160,80,119,1) 45%, rgba(67,51,74,1) 100%);
+  background-repeat: repeat;
   z-index: 1;
   height: 100vh;
   width: 100vw;
@@ -96,7 +92,7 @@ body {
   background-color: #3C2E43;
   position:fixed;
   top: 62.5%;
-  left:82.5%;
+  left:83.5%;
   min-width: 8em;
   width: 25%;
   height: 12%;
@@ -159,7 +155,7 @@ input[type=text]{
 }
 .selection:hover{
   color:#F2EEDE;
-  font-size: 2.3vh;
+  font-size: 1.03em;
 }
 
 .unavailable{
@@ -172,7 +168,7 @@ a{
 }
 a:hover{
   color:#F2EEDE;
-  font-size: 2.3vh;
+  font-size: 1.03em;
 }
 
 
@@ -227,7 +223,7 @@ a:hover{
 
 @media (max-width: 600px){
   body{
-    font-size: 1.8vh;
+    font-size: 16px;
     background-size: 200%;
   }
 
@@ -235,17 +231,16 @@ a:hover{
     font-size: 2.2vh;
   }
   .selectionsMenu{
-    width: 70%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
   .rules{
-    font-size: 1vh;
+    font-size: 0.8em;
     overflow: auto;
     width: 100%;
-    margin-bottom: 50%;
     padding: 0;
   }
 
@@ -260,7 +255,7 @@ a:hover{
   }
 
   .console{
-    width:75%;
+    width:80%;
   }
 
   .playerHUD{
@@ -276,7 +271,6 @@ a:hover{
 
   a:hover{
     color:#F2EEDE;
-    font-size: 1.75vh;
   }
 
   .opponentSprite{
@@ -287,7 +281,7 @@ a:hover{
 
   .playerSprite{
     top: 58%;
-    left: 22%;
+    left: 25%;
     -webkit-transfrom: translate(-50%,-50%);
     transform: translate(-50%,-50%);
     height: 30%;

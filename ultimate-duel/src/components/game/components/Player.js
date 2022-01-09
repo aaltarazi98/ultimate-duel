@@ -28,7 +28,7 @@ export default function Player(props) {
     function showHeart(num){
         if (num === 3){
             return(
-                <div style={{textAlign: 'right', margin: '0', padding: '0'}}>
+                <div style={{textAlign: 'right', margin: '0', padding: '0', marginTop: '0.5em'}}>
                     <img style={{height: '2em', margin: '0'}} src={heart}></img>
                     <img style={{height: '2em', margin: '0'}}src={heart}></img>
                     <img style={{height: '2em', margin: '0'}}src={heart}></img>
@@ -36,7 +36,7 @@ export default function Player(props) {
             )
         }else if (num === 2){
             return(
-                <div style={{textAlign: 'right', margin: '0', padding: '0'}}>
+                <div style={{textAlign: 'right', margin: '0', padding: '0', marginTop: '0.5em'}}>
                     <img style={{height: '2em', margin: '0'}}src={heart}></img>
                     <img style={{height: '2em', margin: '0'}}src={heart}></img>
                     <img style={{height: '2em', margin: '0'}}src={emptyHeart}></img>
@@ -44,7 +44,7 @@ export default function Player(props) {
             )
         }else if (num === 1){
             return(
-                <div style={{textAlign: 'right', margin: '0', padding: '0'}}>
+                <div style={{textAlign: 'right', margin: '0', padding: '0', marginTop: '0.5em'}}>
                     <img style={{height: '2em', margin: '0'}}src={heart}></img>
                     <img style={{height: '2em', margin: '0'}}src={emptyHeart}></img>
                     <img style={{height: '2em', margin: '0'}}src={emptyHeart}></img>
@@ -52,7 +52,7 @@ export default function Player(props) {
             )
         }else{
             return(
-                <div style={{textAlign: 'right', margin: '0', padding: '0'}}>
+                <div style={{textAlign: 'right', margin: '0', padding: '0', marginTop: '0.5em'}}>
                     <img style={{height: '2em', margin: '0'}}src={emptyHeart}></img>
                     <img style={{height: '2em', margin: '0'}}src={emptyHeart}></img>
                     <img style={{height: '2em', margin: '0'}}src={emptyHeart}></img>
@@ -124,7 +124,7 @@ export default function Player(props) {
             <div className="playerHUD">
                 <p style={{ marginBottom: '0'}}>{props.player.name}</p>
                 {showHeart(hp)}
-                <p style={{textAlign: 'right', color: chargeColor}}>Charge: {props.player.charge}</p>
+                <p style={{textAlign: 'right', color: chargeColor, marginTop: '0.5em'}}>Charge: {props.player.charge}</p>
             </div>
             <div>
             <img src={sprite}  className="playerSprite"></img>

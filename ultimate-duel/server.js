@@ -10,6 +10,7 @@ const io = new Server(server, {
       origin:"*"
   }
 });
+const port = process.env.PORT || 4000
 
 
 app.use(express.static(path.join(__dirname, 'build')));
@@ -176,6 +177,6 @@ io.on('connection', (socket) => {
 });
 
 
-server.listen(4000, () => {
+server.listen(port, () => {
   console.log('listening on *:4000');
 });

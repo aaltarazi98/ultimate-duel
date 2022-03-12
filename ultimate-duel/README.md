@@ -6,9 +6,13 @@ Start a game by joining a room and sharing a code with a friend. Then battle you
 
 Start your first duel by visiting the site at: https://ultimate-duel.herokuapp.com 📲🕹
 
-## About
+## Tech Stack
 
-This project was built with React, Vanilla CSS, Express, and Socket.io. 🖥
+**Client:** React, CSS
+
+**Server:** Node, Express, Socket.io
+
+## About
 
 The base opponent and player assets are drawn by pangeafilms, the rest of the models (shield, charge, etc.) were edited and composed by myself.
 Music, sound effects, and background images were found online from free resources. Thank you to everyone who provided them for our use. 🙌

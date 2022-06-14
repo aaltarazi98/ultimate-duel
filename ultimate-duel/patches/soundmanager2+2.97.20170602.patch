@@ -1,0 +1,13 @@
+diff --git a/node_modules/soundmanager2/script/soundmanager2-nodebug.js b/node_modules/soundmanager2/script/soundmanager2-nodebug.js
+index 664ec3c..c5d5179 100644
+--- a/node_modules/soundmanager2/script/soundmanager2-nodebug.js
++++ b/node_modules/soundmanager2/script/soundmanager2-nodebug.js
+@@ -36,7 +36,7 @@ function SoundManager(smURL, smID) {
+     useFlashBlock: false,
+     useHTML5Audio: true,
+     forceUseGlobalHTML5Audio: false,
+-    ignoreMobileRestrictions: false,
++    ignoreMobileRestrictions: true,
+     html5Test: /^(probably|maybe)$/i,
+     preferFlash: false,
+     noSWFCache: false,

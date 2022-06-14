@@ -45,15 +45,14 @@ function App() {
   })
   return (
     <div>
-      {playMusic ? <Sound
+      {playMusic && <Sound
           url = {music}
           playStatus = {Sound.status.PLAYING}
           autoLoad = {true}
           playFromPosition = {300}
           loop = {true}
           volume = {parseInt(musicVol)}
-        />
-        : null}
+        />}
 
       {started ?
       
